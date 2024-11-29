@@ -1,0 +1,12 @@
+Aula 3 - Atividade 2
+
+1. Usabilidade vs. Segurança: Um trade-off comum em softwares é entre a usabilidade, tornando o software fácil e intuitivo para os usuários, e a segurança, 
+garantindo que os dados e a privacidade dos usuários estejam protegidos. Por exemplo, adicionar camadas extras de segurança, como autenticação em dois fatores, 
+pode tornar o processo de login mais complexo para os usuários, impactando a usabilidade.
+
+2. Desempenho vs. Consumo de Recursos: Muitas vezes, os desenvolvedores enfrentam o dilema de otimizar o desempenho do software, garantindo que ele execute tarefas rapidamente, 
+ao mesmo tempo em que minimizam o consumo de recursos, como memória e processamento. Por exemplo, a utilização de algoritmos mais eficientes pode aumentar o desempenho do software, 
+mas também pode exigir mais recursos computacionais.
+
+3. Flexibilidade vs. Complexidade: Ao projetar um software, os desenvolvedores podem encontrar um trade-off entre a flexibilidade do sistema, permitindo que os usuários personalizem 
+e adaptem o software de acordo com suas necessidades, e a complexidade do código subjacente. Adicionar muitas opções de personalização pode tornar o software mais complexo e difícil de manter.

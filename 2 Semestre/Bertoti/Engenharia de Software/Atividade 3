@@ -1,0 +1,34 @@
+Requisitos Não Funcionais (adjetivos) - Tarefas
+Evolutionary - evolução do programa
+Fault Tolerance - Tolerância a falha (um código estourar, e o resto estar funcionando ainda) (acoplamento)
+Modularidade - Sistema é particionado, ele é dividido (instalção do windows)
+Custo do Sistema - Custo como um todo
+Performance - desempenho, velocidade
+Confiabilidade - disponibilidade (servidor disponível a qualquer momento)
+Escalabilidade - carga de uso (100 pessoas usam ? 1000 usam ? 100000 usam ?)
+Simplicidade - facilidade de implementar, mao de obra, conhecimento
+Testar possibilidades de problemas que podem acontecer, tem varios tipos de testes (funcionamento da rede pode estragar o seu software)
+
+Iphone (Apple) Performance x Custo
+Vantagem: Integração do hardware e software: Os iPhones são projetados pela Apple, o que permite uma integração mais eficiente entre o hardware e o software. 
+Isso muitas vezes resulta em um desempenho mais suave e estável.
+
+Desvantagem: Custo inicial elevado: Os iPhones costumam ser mais caros em comparação com alguns concorrentes (Android, por exemplo) que oferecem dispositivos com especificações semelhantes.
+Porém, os iPhones têm uma boa retenção de valor, o que pode ser uma vantagem se você planeja vender ou trocar seu dispositivo no futuro.
+
+Facebook - Confiabilidade (acessos simultâneos) x Confiança nos dados
+Vantagem: A capacidade do Facebook em manter um sistema online para bilhões de usuários se baseia em uma combinação de infraestrutura tecnológica avançada, escalabilidade eficiente, 
+otimização de recursos e uma equipe dedicada de engenheiros que monitoram e ajustam continuamente o sistema para atender às demandas crescentes.
+
+Desvantagem: 
+O Facebook tem enfrentado críticas e preocupações relacionadas à privacidade de dados ao longo dos anos, e houve casos em que a empresa foi acusada de práticas controversas em relação aos dados dos usuários.
+Uma das principais preocupações é que o Facebook coleta uma grande quantidade de informações pessoais de seus usuários, e esses dados podem ser usados para direcionar anúncios de maneira altamente específica.
+(Não é por acaso que, ao discutir um determinado tópico com alguém, muitas vezes notamos que nosso celular parece captar a conversa. Depois, ao abrir o Facebook, 
+deparamo-nos com várias propagandas e anúncios que curiosamente refletem o conteúdo do diálogo recente.)
+
+Companhias Aéreas: Custo x Tolerância à falhas
+A tolerância a falhas desempenha um papel vital na aviação comercial, sendo essencial para garantir a segurança dos voos. Os altos custos associados às passagens aéreas e à produção de aviões refletem investimentos significativos em tecnologias avançadas, sistemas redundantes, treinamento rigoroso para pilotos e manutenção preventiva. Esses gastos visam
+criar uma infraestrutura robusta que permite a operação segura e confiável das aeronaves, com a certeza de que as práticas e regulamentações rigorosas são seguidas para garantir a tolerância a falhas eficaz.
+
+Embora as passagens aéreas possam parecer dispendiosas, é crucial reconhecer que esses custos estão intrinsecamente ligados ao compromisso intransigente com a segurança. A indústria aeroespacial investe em tecnologia de ponta e práticas regulatórias rigorosas para garantir que as aeronaves atendam aos mais altos padrões de segurança. 
+Essa abordagem não apenas proporciona operações seguras, mas também sustenta a confiança do público na aviação, demonstrando que a segurança é a prioridade máxima, justificando os custos associados à viagem aérea.

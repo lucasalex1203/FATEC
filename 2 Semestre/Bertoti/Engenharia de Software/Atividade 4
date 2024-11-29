@@ -1,0 +1,59 @@
+A arquitetura do sistema deve ser projetada levando em consideração os tradeoffs entre os diversos requisitos não funcionais mencionados em aula, 
+tais como desempenho, escalabilidade, disponibilidade, segurança e custo.
+
+Por exemplo, ao pensar na escalabilidade do sistema, um tradeoff a ser considerado é a escolha entre arquiteturas monolíticas e microsserviços. 
+Uma arquitetura monolítica pode ser mais simples de implementar e manter, porém pode apresentar dificuldades para escalar horizontalmente, 
+especialmente em ambientes de nuvem. Por outro lado, uma arquitetura baseada em microsserviços pode ser mais escalável, mas exige um maior esforço 
+de desenvolvimento e manutenção.
+
+No que diz respeito à segurança, um tradeoff importante é entre a conveniência do usuário e a proteção dos dados. 
+Por exemplo, a adição de camadas de segurança, como autenticação de dois fatores ou criptografia de ponta a ponta, pode aumentar a segurança do sistema, 
+mas também pode tornar a experiência do usuário mais complexa.
+
+Além disso, o desempenho do sistema também é um fator crucial a ser considerado na arquitetura. 
+Tradeoffs entre a modularidade do código e a eficiência de comunicação entre os componentes podem surgir ao decidir entre uma arquitetura baseada 
+em microsserviços ou monolítica.
+
+Em resumo, ao debater tradeoffs com os requisitos não funcionais em mente, é importante encontrar um equilíbrio entre eles para garantir que a 
+arquitetura do sistema atenda às necessidades do negócio de forma eficiente e eficaz.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+trade-off pelos requisitos não funcionais
+
+Uber: O aplicativo Uber utiliza uma arquitetura de microsserviços para lidar com diferentes aspectos do serviço, como gerenciamento de motoristas, 
+rastreamento de veículos, processamento de pagamentos, etc. Cada funcionalidade é fornecida por um microsserviço separado, 
+o que permite escalabilidade e manutenção mais fáceis.
+
+Gerenciar um grande número de microsserviços pode se tornar complicado devido à necessidade de lidar com questões como descoberta de serviços, 
+comunicação entre microsserviços, monitoramento, balanceamento de carga, resiliência, tratamento de falhas e segurança. Além disso, a dependência entre 
+os microsserviços pode introduzir complexidades adicionais na orquestração e coordenação das interações entre os serviços.
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Para o serviço do Uber, há diversos trade-offs a serem considerados em relação aos requisitos não funcionais:
+
+Desempenho: Um trade-off importante para o Uber é o desempenho em termos de tempo de resposta e capacidade de processamento. 
+Para garantir uma experiência rápida e eficiente para os usuários, o sistema deve ser capaz de lidar com um grande volume de solicitações simultâneas 
+e processar a localização em tempo real dos motoristas e passageiros.
+
+Escalabilidade: O Uber precisa ser capaz de escalar horizontalmente para lidar com picos de demanda em horários de pico. 
+Isso pode implicar em custos extras de infraestrutura para garantir que o sistema seja capaz de lidar com o aumento da carga sem 
+comprometer a experiência do usuário.
+
+Disponibilidade: A disponibilidade do serviço é essencial para o Uber, pois os usuários precisam ser capazes de solicitar um carro 
+a qualquer momento. Isso significa que o sistema deve ser altamente disponível e resistente a falhas, com mecanismos de redundância e 
+recuperação de desastres para evitar interrupções no serviço.
+
+Segurança: A segurança dos dados dos usuários e a proteção de informações pessoais são críticas para o Uber. 
+Isso pode resultar em trade-offs em termos de conveniência, como a necessidade de autenticação adicional para garantir a identidade tanto 
+do motorista quanto do passageiro.
+
+Custos: O Uber também enfrenta trade-offs em relação aos custos operacionais e de infraestrutura. Por exemplo, 
+investir em medidas de segurança adicionais pode aumentar os custos, mas garantir a confiança dos usuários. Da mesma forma, 
+otimizar a infraestrutura para lidar com picos de demanda pode resultar em despesas extras, mas é crucial para manter a experiência do usuário.
+
+Em resumo, ao projetar a arquitetura do sistema do Uber, é essencial encontrar um equilíbrio entre esses trade-offs para garantir que o serviço 
+atenda aos requisitos não funcionais de desempenho, escalabilidade, disponibilidade, segurança e custo. Isso envolve tomar decisões estratégicas 
+em relação à arquitetura do sistema, infraestrutura tecnológica e políticas de segurança para garantir a melhor experiência possível para os usuários.
